@@ -1,0 +1,66 @@
+/* Google Font link below: */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-div {
+    width: 40rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgb(29, 54, 165);
+    color: white;
+    text-align: center;
+    
+}
+
+/* Select all the elements form counter-div */
+.number-div > * {
+    margin-bottom: 2rem;
+    font-family: 'Righteous', cursive;
+}
+
+.count {
+    font-size: 4rem;
+}
+
+.buttons button {
+    padding: 10px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Staatliches', cursive;
+}
+
+.decrease {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+button.reset {
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
+}
+
+button.increase {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+}
