@@ -9,15 +9,19 @@
     height: 100vh;
 }
 
-.counter-div {
+.number-div {
     width: 40rem;
     border: 1px solid gray;
     border-radius: 8px;
     padding: 1rem;
-    background-color: rgb(29, 54, 165);
-    color: white;
+    background-color: rgb(216, 204, 34);
+    color: black;
     text-align: center;
     
+}
+
+hr {
+    border: 2px solid black;
 }
 
 /* Select all the elements form counter-div */
@@ -26,41 +30,29 @@
     font-family: 'Righteous', cursive;
 }
 
-.count {
+.number {
     font-size: 4rem;
 }
 
-.buttons button {
+button {
     padding: 10px 10px;
     margin: 0 5px;
     border-radius: 5px;
-    border: none;
-    outline: none;
-    font-family: 'Staatliches', cursive;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
 }
 
-.decrease {
-    cursor: pointer;
-    background-color: red;
+button:hover {
+    background-color: blue;
     color: white;
-    font-size: 15px;
-}
-
-button.reset {
-    cursor: pointer;
-    background-color: tomato;
-    color: white;
-    font-size: 15px;
-}
-
-button.increase {
-    cursor: pointer;
-    background-color: green;
-    color: white;
-    font-size: 15px;
+    border: 1px solid darkblue;
 }
 
 h1 {
     font-family: 'Rampart One', cursive;
-    font-size: 40px;
+    font-size: 30px;
 }
